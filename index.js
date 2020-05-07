@@ -26,7 +26,7 @@ function effectiveDamage(power, armor, armorPenetration) {
  * @param {Number} n 異常な可能性のある入力値
  * @return {Number} 正常値
  */
-fun normalize(n) {
+function normalize(n) {
   if (n < 0) {
     return 0;
   } else if (n >= 2000) {
